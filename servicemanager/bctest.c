@@ -6,8 +6,9 @@
 #include <string.h>
 #include <errno.h>
 
+typedef __uint32_t    uint32_t;
+typedef __uint16_t    uint16_t;
 #include "binder.h"
-
 uint32_t svcmgr_lookup(struct binder_state *bs, uint32_t target, const char *name)
 {
     uint32_t handle;
