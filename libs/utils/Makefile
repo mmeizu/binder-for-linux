@@ -1,6 +1,5 @@
 utils_sources := \
 	BasicHashtable.cpp \
-	BlobCache.cpp \
 	CallStack.cpp \
 	FileMap.cpp \
 	JenkinsHash.cpp \

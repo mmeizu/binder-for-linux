@@ -8,6 +8,7 @@ binder_sources := \
 	IAppOpsService.cpp \
 	IBatteryStats.cpp \
 	IInterface.cpp \
+	IProcessInfoService.cpp \
 	IMemory.cpp \
 	IPCThreadState.cpp \
 	IPermissionController.cpp \
